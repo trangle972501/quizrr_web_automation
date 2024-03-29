@@ -15,6 +15,7 @@ executors:
     docker:
       - image: "mcr.microsoft.com/playwright:v1.40.1"
     working_directory: ~/project
+    
 commands:
   checkout_and_install_node:
     description: checkout and install dependencies
