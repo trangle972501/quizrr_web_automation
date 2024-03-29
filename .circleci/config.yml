@@ -59,7 +59,6 @@ commands:
           path: results.xml
       - store_artifacts:
           path: playwright-report
-
 jobs:
   run_e2e_testing:
     executor:
