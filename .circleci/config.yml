@@ -65,7 +65,7 @@ jobs:
     executor:
       name: playwright
     parallelism: 4
-    resource_class: large
+    resource_class: wrzmwufrzwq5epqqvpmy39/learn_playwright
     parameters:
       script:
         type: string
