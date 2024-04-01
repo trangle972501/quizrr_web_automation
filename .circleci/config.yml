@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
       - image: cimg/base:2021.11
-    resource_class: wrzmwufrzwq5epqqvpmy39/learn_playwright
+    resource_class: wrzmwufrzwq5epqqvpmy39/temp
     steps:
       - checkout
       - run: echo "Hi I'm on Runners!"
