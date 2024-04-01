@@ -1,13 +1,15 @@
 version: 2.1
+
 jobs:
   build:
     docker:
-      - image: node:20
-    resource_class: wrzmwufrzwq5epqqvpmy39/learn_playwright
+      - image: cimg/base:2021.11
+    resource_class: <namespace>/<resource-class>
     steps:
-      - run: echo "Hi I'm on a Container Runner!"
+      - checkout
+      - run: echo "Hi I'm on Runners!"
+
 workflows:
   build-workflow:
     jobs:
       - build
-
